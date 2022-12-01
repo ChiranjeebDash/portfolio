@@ -14,7 +14,7 @@ pipeline {
 
               sh "aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY"
 
-              sh "aws s3 sync . s3://webdeploy1"
+              sh "aws s3 sync . s3://chinu.tk"
 
             }
 
